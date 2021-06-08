@@ -1,0 +1,7 @@
+<header>
+    <h1>{{ title.toUpperCase() }}</h1>
+    <app-button
+        (btnClick2)="toggleAddTask()" 
+        color="{{showAddTask ? 'red' : 'green'}}" 
+        text="{{showAddTask ? 'Close' : 'Add'}}"></app-button>
+</header>
